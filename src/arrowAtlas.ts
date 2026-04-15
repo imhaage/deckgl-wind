@@ -38,9 +38,9 @@ const drawTriangle: DrawFn = (ctx, ox) => {
 const drawChevron: DrawFn = (ctx, ox) => {
   ctx.beginPath();
   ctx.moveTo(ox + 32, 4);  // tip
-  ctx.lineTo(ox + 52, 62); // bottom right
-  ctx.lineTo(ox + 32, 44); // center notch (V effect)
-  ctx.lineTo(ox + 12, 62); // bottom left
+  ctx.lineTo(ox + 54, 62); // bottom right
+  ctx.lineTo(ox + 32, 48); // center notch (V effect)
+  ctx.lineTo(ox +  10, 62); // bottom left
   ctx.closePath();
   ctx.fill();
 };
